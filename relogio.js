@@ -42,7 +42,7 @@ function drawNumbers() {
   ctx.font = radius * 0.15 + 'px arial';
   ctx.textBaseline = 'middle';
   ctx.textAlign = 'center';
-  ctx.fillStyle = 'black';
+  ctx.fillStyle = 'blue';
   for (let num = 1; num < 13; num++) {
     let ang = (num * Math.PI) / 6;
     ctx.rotate(ang);
